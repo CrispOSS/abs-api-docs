@@ -1,4 +1,4 @@
-## ABS Remote API
+= ABS Remote API
 
 ABS API provides an extension modules to enable using actors in a distributed setting.
 In a distributed setting, each JVM instance contains a set of actors.

@@ -40,10 +40,19 @@
 						<configuration>
 							<sourceDirectory>${basedir}/src/main/docs/asciidoc</sourceDirectory>
 							<outputDirectory>${project.docs.directory}/reference</outputDirectory>
+							<doctype>book</doctype>
 							<backend>html5</backend>
 							<sourceHighlighter>highlightjs</sourceHighlighter>
 							<attributes>
 								<docVersion>${project.version}</docVersion>
+								<doctype>book</doctype>
+								<icons>font</icons>
+								<toc2>true</toc2>
+								<toc-position>right</toc-position>
+								<setanchors>true</setanchors>
+								<numbered>true</numbered>
+								<idprefix>-</idprefix>
+								<idseparator>-</idseparator>
 							</attributes>
 						</configuration>
 					</execution>
